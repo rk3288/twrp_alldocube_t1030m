@@ -71,8 +71,7 @@ jobs:
 
     - name: Install OpenJDK
       run: |
-        git clone https://github.com/cd-Spidey/Random.git ./opendjk
-        sudo bash opendjk/setup/packages/open_jdk.sh
+        sudo apt-get install openjdk-8-jdk
       
     - name: Install Git-Repo
       run: |
